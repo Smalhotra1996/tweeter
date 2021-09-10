@@ -15,3 +15,6 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+!["Screenshot of tweet box "](https://github.com/Smalhotra1996/tweeter/blob/master/docs/tweet-box.png)
+!["screenshot of tweet-box1"](https://github.com/Smalhotra1996/tweeter/blob/master/docs/tweet-box1.png)
+!["screenshot of tweet-box1"](https://github.com/Smalhotra1996/tweeter/blob/master/docs/tweet.png)
