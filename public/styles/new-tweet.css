@@ -1,0 +1,37 @@
+form{
+  display:flex;
+  flex-direction:column;
+  justify-content :center;
+  width :95vw;
+  padding-top: 10px;
+
+}
+ label{
+  color :rgba(14, 1, 1, 0.87);
+  font-family : 'Times new roman', cursive;
+}
+footer{
+  display:flex;
+  justify-content:space-between;
+  margin-top: 10px;
+
+}
+footer button {
+  color :white;
+  font-family : 'Bungee', cursive;
+  background-color: blue;
+}
+.counter{
+  color: rgba(14, 1, 1, 0.87);
+  font-family : 'Bungee', cursive;
+}
+#tweet-text {
+  border : none;
+  outline: none;
+  border-bottom : 1px solid gray;
+  width:100%;
+
+}
+.color-negative{
+  color:red;
+}

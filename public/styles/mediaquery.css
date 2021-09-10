@@ -1,0 +1,20 @@
+@media only screen and (min-width: 1024px){
+  
+  .header{
+   
+      width: 33.3%;
+      float: left;
+      display:flex;
+      flex-direction: column;
+      margin: 50px;
+      margin-right: 100px;
+    
+  }
+  .responsive{
+    display:flex;
+    
+    padding-top:80px;
+
+}
+
+}
