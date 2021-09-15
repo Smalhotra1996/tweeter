@@ -1,100 +1,107 @@
 .tweet {
    border: 5px solid red;
-   width:100%;
-  padding:1em;
-  display:flex;
-  flex-direction: column;
-  margin-top: 50px;
+   width: 100%;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
 
 }
-.tweet header{
-   display:flex;
-   justify-content:space-between;
-   align-items:center;
-   margin-bottom : 2em;
 
-}
-.tweet footer{
-   display:flex;
-   justify-content:space-between;
+.tweet header {
+   display: flex;
+   justify-content: space-between;
    align-items: center;
-   border-top:5px solid black;
-   margin-top:1em;
-   font-size:15px;
+   margin-bottom: 2em;
+
 }
 
-.tweet header i{
-   padding-right : 1em;
-   
+.tweet footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-top: 5px solid black;
+   margin-top: 1em;
+   font-size: 15px;
 }
 
-.tweet footer i{
-   padding-left : 1em;
+.tweet header i {
+   padding-right: 1em;
+
+}
+
+.tweet footer i {
+   padding-left: 1em;
    color: blue;
-   
+
 }
 
-.username{
+.username {
    color: blue;
    font-weight: bold;
 
 }
 
-.tweet:hover{
-   box-shadow:5px 5px 5px orange;
+.tweet:hover {
+   box-shadow: 5px 5px 5px orange;
 }
 
-.tweet footer i:hover{
+.tweet footer i:hover {
    color: orange;
 }
+
 .error-container {
-   display:flex;
+   display: flex;
    flex-direction: column;
-   width:100%;
-   justify-content:center;
+   width: 100%;
+   justify-content: center;
    align-items: center;
 }
- #emptyerror {
-   display:flex;
-   justify-content:center;
+
+#emptyerror {
+   display: flex;
+   justify-content: center;
    align-items: center;
    width: 80%;
-  height: 80px;
+   height: 80px;
    border: 5px solid red;
    font-family: Bungee cursive;
-   font-size:25px;
-   padding:15px;
+   font-size: 25px;
+   padding: 15px;
    color: red;
-   
+
 }
 
 #charcount {
-   display:flex;
+   display: flex;
    align-items: center;
-   justify-content:center;
+   justify-content: center;
    width: 90%;
-  height: 80px;
+   height: 80px;
    border: 5px solid red;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size:25px;
-   padding:10px;
+   font-size: 25px;
+   padding: 10px;
    color: red;
-   
+
 }
 
-#submittweet{
-   width:100%;
-  
+#submittweet {
+   width: 100%;
+
 }
-.container{
-   padding:15px;
+
+.container {
+   padding: 15px;
 }
-#tweets-container{
-   display:flex;
-   width:90%;
-   flex-direction:column;
+
+#tweets-container {
+   display: flex;
+   width: 90%;
+   flex-direction: column;
 }
-.new-tweet{
-   
-   width:90%;
+
+.new-tweet {
+
+   width: 90%;
 }

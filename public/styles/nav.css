@@ -11,21 +11,19 @@ nav {
   top:0;
 }
 
-
 .newtweet {
   display :flex;
   justify-content :right;
 
 }
+
 .cl-1{
   color: #FFF;
   font-family: 'Times New Roman', Times, serif;
- 
 }
+
 .cl-2{
-  color :#b92323;
-  
-  
+  color :#b92323;  
 }
 
 
