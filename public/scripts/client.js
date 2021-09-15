@@ -46,6 +46,7 @@ $(document).ready(function () {
     }
   }
   );
+  // Getting tweets
   const loadTweets = function () {
     $.ajax({
       url: "/tweets",
@@ -76,7 +77,9 @@ $(document).ready(function () {
     return tweet;
   }
 
+  // Clears the tweet container and render the tweets
   const renderTweets = function (tweets) {
+    $('#tweets-container').empty()
     for (let tweetObj of tweets) {
       $('#tweets-container').prepend(createTweetElement(tweetObj));
     }
