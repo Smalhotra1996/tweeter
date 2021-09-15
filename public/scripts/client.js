@@ -51,7 +51,6 @@ $(document).ready(function () {
       url: "/tweets",
       type: "GET",
       success: function (data) {
-
         renderTweets(data)
       }
     })
