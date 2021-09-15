@@ -41,7 +41,9 @@ $(document).ready(function () {
         data: $("form").serialize()
       }).then(function (response) {
         loadTweets()
-        console.log("response ", response);
+        $('#tweet-text').val("");
+        $('.counter').text(140);
+        //console.log("response ", response);
       })
         .catch(function (error) {
           console.error(error);
